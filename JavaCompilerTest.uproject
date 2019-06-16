@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{00042321-08D6-D075-822C-C70029E87BB5}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "JavaCompilerTest",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"UMG"
+			]
+		}
+	]
+}
