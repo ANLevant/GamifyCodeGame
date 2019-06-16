@@ -1,6 +1,12 @@
 # Visual Studio 2015 user specific files
 .vs/
 
+#CLion Related
+.idea/*
+.kdev4/*
+.vscode/*
+cmake-build-debug/*
+
 # Compiled Object files
 *.slo
 *.lo
