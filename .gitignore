@@ -12,6 +12,7 @@ cmake-build-debug/*
 *.lo
 *.o
 *.obj
+*.uasset
 
 # Precompiled Headers
 *.gch
