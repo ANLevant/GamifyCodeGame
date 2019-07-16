@@ -13,6 +13,8 @@ UCLASS()
 class JAVACOMPILERTEST_API UCodeInputWidget : public UUserWidget
 {
 	GENERATED_BODY()
+	UCodeInputWidget(const FObjectInitializer& ObjectInitializer);
+    virtual void BeginDestroy() override;
     public:
 	UFUNCTION(BlueprintCallable, Category = "Code-Related" )
 	void compileCode(FText codeToCompile);
